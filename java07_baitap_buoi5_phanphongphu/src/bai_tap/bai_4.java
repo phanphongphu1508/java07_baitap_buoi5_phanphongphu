@@ -18,14 +18,14 @@ public class bai_4 {
 		
 		System.out.print("Kết quả là: " + ketQua);
 	}		
-	private static double tong(double x, int n) {
+	public static double tong(double x, int n) {
 		double s = 0;
 		for (int i = 1; i <= n; i++) {
 			s = s + luyThua(x, i);
 	}
 		return s;
 	}
-	private static double luyThua(double x, int n) {
+	public static double luyThua(double x, int n) {
 		double t = 1;
 		for (int i = 1; i <= n; i++) {
 			t = t * x;
